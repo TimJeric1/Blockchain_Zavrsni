@@ -9,6 +9,7 @@ npm install truffle
 ```
 
 ## Komande za pokretanje
+unutar blockchain_projekt foldera
 ```
 truffle compile
 truffle migrate
