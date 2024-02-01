@@ -29,7 +29,7 @@ contract("SimpleToken", (accounts) => {
     const senderBalanceBefore = await tokenInstance.balanceOf(accounts[0]);
     const receiverBalanceBefore = await tokenInstance.balanceOf(accounts[1]);
 
-    await tokenInstance.transfer(accounts[1], 100, { from: accounts[0] });
+    await tokenInstance.transfer(accounts[1], 100)
 
     const senderBalanceAfter = await tokenInstance.balanceOf(accounts[0]);
     const receiverBalanceAfter = await tokenInstance.balanceOf(accounts[1]);
