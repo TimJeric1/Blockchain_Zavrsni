@@ -1,5 +1,3 @@
-// 2_StoreValue_migration.js
-
 const Migrations = artifacts.require("SimpleToken");
 
 module.exports = function (deployer) {
